@@ -294,6 +294,7 @@ dependencies {
 
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    implementation "io.sentry:sentry-android:6.4.1"
     // SUB-PROJECT DEPENDENCIES END
 }
 
